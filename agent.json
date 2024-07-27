@@ -1,0 +1,14 @@
+{
+  "defaultLanguageCode": "en",
+  "timeZone": "America/Los_Angeles",
+  "projectNumber": 602721919952,
+  "advancedSettings": {
+    "loggingSettings": {
+    
+    }
+  },
+  "genAppBuilderSettings": {
+    "engine": "projects/602721919952/locations/global/collections/default_collection/engines/dc302415-b2b2-4f9b-9076-c35b2486f1d1"
+  },
+  "startPlaybook": "Course Recommender"
+}

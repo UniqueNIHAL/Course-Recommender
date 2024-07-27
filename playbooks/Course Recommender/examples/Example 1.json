@@ -1,0 +1,133 @@
+{
+  "name": "5812ca48-6de4-40ab-bd6a-e94fd12e9891",
+  "actions": [ {
+    "userUtterance": {
+      "text": "Hello"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Hi there! I'm the Course Recommender Bot. How can I help you today?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Recommend me a course on Digital Forensics"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/project-saadhna-429922/locations/global/agents/dc302415-b2b2-4f9b-9076-c35b2486f1d1/tools/b5af2d5c-e267-4de6-a7bb-4a68ac2fb5ca",
+      "action": "Datastore for Course Recommender",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": {
+          "query": "Digital Forensics"
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "answer": "Sure, here is a course on Digital Forensics:\n\n**4. Digital Forensics Masterclass: Forensic Science 2024 DFMC+**\n\n* **Expiry Date:** NA\n* **Free:** NO\n* **Quality:** Worthy\n* **Prerequisites:** No requirements or experience needed\n* **Duration:** 13.5 hours\n* **Platform:** Udemy\n* **Community/Forum:** [Udemy Course](https://www.udemy.com/course/digital-forensics-course/)\n* **Certification:** PAID CERT\n* **Difficulty Level:** Intermediate\n* **Brief Description:** Covers essential topics in digital forensics, including data acquisition and the need for digital forensics.\n* **Course LINK:** [Digital Forensics Course](https://www.udemy.com/course/digital-forensics-course/)",
+          "snippets": [ {
+            "text": "Community/Forum: Platform inbuilt form in each module Certification: PAID CERT Difficulty Level: Complex Brief Description: Focuses on combining concepts to solve CAT-level exams. Course LINK: [CAT Course](https://www.udemy.com/course/the-complete-guide-to-quantitative-aptitude/) --- **4. Digital Forensics Masterclass: Forensic Science 2024 DFMC+** Expiry Date: NA Free: NO Quality: Worthy Prerequisites: No requirements or experience needed Duration: 13.5 hours Platform: Udemy Community/Forum: [Udemy Course](https://www.udemy.com/course/digital-forensics-course/) Certification: PAID CERT Difficulty Level: Intermediate Brief Description: Covers essential topics in digital forensics, including data acquisition and the need for digital forensics. Course LINK: [Digital Forensics Course](https://www.udemy.com/course/digital-forensics-course/) ---",
+            "title": "PCL Data as text",
+            "uri": "https://storage.cloud.google.com/course_recommender_dataset/PCL Data as text.pdf#page=2"
+          }, {
+            "text": "Digital Forensics Masterclass: Forensic Science 2024 DFMC+** Expiry Date: NA Free: NO Quality: Worthy Prerequisites: No requirements or experience needed Duration: 13.5 hours Platform: Udemy Community/Forum: [Udemy Course](https://www.udemy.com/course/digital-forensics-course/) Certification: PAID CERT Difficulty Level: Intermediate Brief Description: Covers essential topics in digital forensics, including data acquisition and the need for digital forensics.",
+            "title": "PCL Data as text",
+            "uri": "https://storage.cloud.google.com/course_recommender_dataset/PCL Data as text.pdf#page=2"
+          }, {
+            "text": "Certification: PAID CERT Difficulty Level: Very Basic Brief Description: Focuses on saving, protecting, and growing wealth through various financial strategies and compound interest.",
+            "title": "PCL Data as text",
+            "uri": "https://storage.cloud.google.com/course_recommender_dataset/PCL Data as text.pdf#page=5"
+          }, {
+            "text": "Free: YES Quality: Average Prerequisites: Basic knowledge of computers Duration: 6 hours Platform: skillsforall Community/Forum: No Certification: FREE CERT Difficulty Level: Very Basic Brief Description: This theoretical course covers introductory cyber security concepts, including malware, security vulnerabilities, and defensive methods. Course LINK: [Cisco Cyber Security](https://skillsforall.com/course/introduction-to-cybersecurity?courseLang=en-US) --- **7. Microsoft 365 Course** Expiry Date: Dec 31st 2024 Free: NO Quality: Best Prerequisites: Basic knowledge of computers Duration: 2-6 months Platform: Coursera Community/Forum: Coursera in-built forum for each module Certification: FREE\u0026PAID CERT Difficulty Level: Basic to Intermediate Brief Description: Comprehensive coverage of Microsoft Office suite, including advanced features like macros and data analysis. Course LINK: [Microsoft 365 Course](https://www.coursera.org/specializations/microsoft-365-fundamentals#outcomes) ---",
+            "title": "PCL Data as text",
+            "uri": "https://storage.cloud.google.com/course_recommender_dataset/PCL Data as text.pdf#page=3"
+          }, {
+            "text": "Free: YES Quality: Average Prerequisites: Basic knowledge of computers Duration: 6 hours Platform: skillsforall Community/Forum: No Certification: FREE CERT Difficulty Level: Very Basic Brief Description: This theoretical course covers introductory cyber security concepts, including malware, security vulnerabilities, and defensive methods.",
+            "title": "PCL Data as text",
+            "uri": "https://storage.cloud.google.com/course_recommender_dataset/PCL Data as text.pdf#page=3"
+          }, {
+            "text": "**2. Cybersecurity Study Jam by Google** Expiry Date: NA Free: YES Quality: Best Prerequisites: Be part of any Google Study Club Duration: 3-4 months Platform: Coursera Community/Forum: NA Certification: FREE\u0026PAID CERT Difficulty Level: Basic to Intermediate Brief Description: Part of Google's Cyber Security Study Jam, this program provides access to all Google courses for free on Coursera. Course LINK: [Google Cybersecurity](https://www.coursera.org/professional-certificates/google-cybersecurity) --- **3. Common Admission Test (CAT) Course** Expiry Date: NA Free: NO Quality: Best Prerequisites: For CAT, a bachelor’s degree is required Duration: 14-16 months Platform: Udemy",
+            "title": "PCL Data as text",
+            "uri": "https://storage.cloud.google.com/course_recommender_dataset/PCL Data as text.pdf#page=1"
+          }, {
+            "text": "**5. Tally Prime** Expiry Date: NA Free: NO Quality: Worthy Prerequisites: Basic knowledge of Mathematics Duration: 20+80 hours Platform: iimskills Community/Forum: NA Certification: PAID CERT Difficulty Level: Very Basic Brief Description: Used for business management to maintain business accounts and transactions. Course LINK: [Tally Prime](https://iimskills.com/tally-course/) --- **6. Introduction to Cyber Security by Cisco** Expiry Date: NA",
+            "title": "PCL Data as text",
+            "uri": "https://storage.cloud.google.com/course_recommender_dataset/PCL Data as text.pdf#page=2"
+          }, {
+            "text": "--- **1. Harvard University Cs50x Introduction to Computer Science** Expiry Date: Dec 31st 2024 Free: YES Quality: Best Prerequisites: Have a laptop/PC, basic knowledge how to operate a PC Duration: 11 Weeks Platform: edx Community/Forum: [CS50 Communities](https://cs50.harvard.edu/x/2022/communities/) Certification: FREE\u0026PAID CERT Difficulty Level: Basic to Intermediate Brief Description: This course offers excellent teaching with a focus on projects and problem sets rather than exams. It covers Python, C, Scratch, introductory computer science concepts, and front-end development. Course LINK: [CS50x Course](https://cs50.harvard.edu/x/2024/) ---",
+            "title": "PCL Data as text",
+            "uri": "https://storage.cloud.google.com/course_recommender_dataset/PCL Data as text.pdf#page=1"
+          }, {
+            "text": "It covers Python, C, Scratch, introductory computer science concepts, and front-end development. Course LINK: [CS50x Course](https://cs50.harvard.edu/x/2024/) --- **2.",
+            "title": "PCL Data as text",
+            "uri": "https://storage.cloud.google.com/course_recommender_dataset/PCL Data as text.pdf#page=1"
+          }, {
+            "text": "- **Course LINK:** [Financial Markets](https://www.coursera.org/learn/financial-markets-global) --- ### **33.",
+            "title": "PCL Data as text",
+            "uri": "https://storage.cloud.google.com/course_recommender_dataset/PCL Data as text.pdf#page=13"
+          } ]
+        }
+      } ],
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "Digital Forensics"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "Sure, here is a course on Digital Forensics:\n\n**4. Digital Forensics Masterclass: Forensic Science 2024 DFMC+**\n\n* **Expiry Date:** NA\n* **Free:** NO\n* **Quality:** Worthy\n* **Prerequisites:** No requirements or experience needed\n* **Duration:** 13.5 hours\n* **Platform:** Udemy\n* **Community/Forum:** [Udemy Course](https://www.udemy.com/course/digital-forensics-course/)\n* **Certification:** PAID CERT\n* **Difficulty Level:** Intermediate\n* **Brief Description:** Covers essential topics in digital forensics, including data acquisition and the need for digital forensics.\n* **Course LINK:** [Digital Forensics Course](https://www.udemy.com/course/digital-forensics-course/)",
+          "snippets": [ {
+            "text": "Community/Forum: Platform inbuilt form in each module Certification: PAID CERT Difficulty Level: Complex Brief Description: Focuses on combining concepts to solve CAT-level exams. Course LINK: [CAT Course](https://www.udemy.com/course/the-complete-guide-to-quantitative-aptitude/) --- **4. Digital Forensics Masterclass: Forensic Science 2024 DFMC+** Expiry Date: NA Free: NO Quality: Worthy Prerequisites: No requirements or experience needed Duration: 13.5 hours Platform: Udemy Community/Forum: [Udemy Course](https://www.udemy.com/course/digital-forensics-course/) Certification: PAID CERT Difficulty Level: Intermediate Brief Description: Covers essential topics in digital forensics, including data acquisition and the need for digital forensics. Course LINK: [Digital Forensics Course](https://www.udemy.com/course/digital-forensics-course/) ---",
+            "title": "PCL Data as text",
+            "uri": "https://storage.cloud.google.com/course_recommender_dataset/PCL Data as text.pdf#page=2"
+          }, {
+            "text": "Digital Forensics Masterclass: Forensic Science 2024 DFMC+** Expiry Date: NA Free: NO Quality: Worthy Prerequisites: No requirements or experience needed Duration: 13.5 hours Platform: Udemy Community/Forum: [Udemy Course](https://www.udemy.com/course/digital-forensics-course/) Certification: PAID CERT Difficulty Level: Intermediate Brief Description: Covers essential topics in digital forensics, including data acquisition and the need for digital forensics.",
+            "title": "PCL Data as text",
+            "uri": "https://storage.cloud.google.com/course_recommender_dataset/PCL Data as text.pdf#page=2"
+          }, {
+            "text": "Certification: PAID CERT Difficulty Level: Very Basic Brief Description: Focuses on saving, protecting, and growing wealth through various financial strategies and compound interest.",
+            "title": "PCL Data as text",
+            "uri": "https://storage.cloud.google.com/course_recommender_dataset/PCL Data as text.pdf#page=5"
+          }, {
+            "text": "Free: YES Quality: Average Prerequisites: Basic knowledge of computers Duration: 6 hours Platform: skillsforall Community/Forum: No Certification: FREE CERT Difficulty Level: Very Basic Brief Description: This theoretical course covers introductory cyber security concepts, including malware, security vulnerabilities, and defensive methods. Course LINK: [Cisco Cyber Security](https://skillsforall.com/course/introduction-to-cybersecurity?courseLang=en-US) --- **7. Microsoft 365 Course** Expiry Date: Dec 31st 2024 Free: NO Quality: Best Prerequisites: Basic knowledge of computers Duration: 2-6 months Platform: Coursera Community/Forum: Coursera in-built forum for each module Certification: FREE\u0026PAID CERT Difficulty Level: Basic to Intermediate Brief Description: Comprehensive coverage of Microsoft Office suite, including advanced features like macros and data analysis. Course LINK: [Microsoft 365 Course](https://www.coursera.org/specializations/microsoft-365-fundamentals#outcomes) ---",
+            "title": "PCL Data as text",
+            "uri": "https://storage.cloud.google.com/course_recommender_dataset/PCL Data as text.pdf#page=3"
+          }, {
+            "text": "Free: YES Quality: Average Prerequisites: Basic knowledge of computers Duration: 6 hours Platform: skillsforall Community/Forum: No Certification: FREE CERT Difficulty Level: Very Basic Brief Description: This theoretical course covers introductory cyber security concepts, including malware, security vulnerabilities, and defensive methods.",
+            "title": "PCL Data as text",
+            "uri": "https://storage.cloud.google.com/course_recommender_dataset/PCL Data as text.pdf#page=3"
+          }, {
+            "text": "**2. Cybersecurity Study Jam by Google** Expiry Date: NA Free: YES Quality: Best Prerequisites: Be part of any Google Study Club Duration: 3-4 months Platform: Coursera Community/Forum: NA Certification: FREE\u0026PAID CERT Difficulty Level: Basic to Intermediate Brief Description: Part of Google's Cyber Security Study Jam, this program provides access to all Google courses for free on Coursera. Course LINK: [Google Cybersecurity](https://www.coursera.org/professional-certificates/google-cybersecurity) --- **3. Common Admission Test (CAT) Course** Expiry Date: NA Free: NO Quality: Best Prerequisites: For CAT, a bachelor’s degree is required Duration: 14-16 months Platform: Udemy",
+            "title": "PCL Data as text",
+            "uri": "https://storage.cloud.google.com/course_recommender_dataset/PCL Data as text.pdf#page=1"
+          }, {
+            "text": "**5. Tally Prime** Expiry Date: NA Free: NO Quality: Worthy Prerequisites: Basic knowledge of Mathematics Duration: 20+80 hours Platform: iimskills Community/Forum: NA Certification: PAID CERT Difficulty Level: Very Basic Brief Description: Used for business management to maintain business accounts and transactions. Course LINK: [Tally Prime](https://iimskills.com/tally-course/) --- **6. Introduction to Cyber Security by Cisco** Expiry Date: NA",
+            "title": "PCL Data as text",
+            "uri": "https://storage.cloud.google.com/course_recommender_dataset/PCL Data as text.pdf#page=2"
+          }, {
+            "text": "--- **1. Harvard University Cs50x Introduction to Computer Science** Expiry Date: Dec 31st 2024 Free: YES Quality: Best Prerequisites: Have a laptop/PC, basic knowledge how to operate a PC Duration: 11 Weeks Platform: edx Community/Forum: [CS50 Communities](https://cs50.harvard.edu/x/2022/communities/) Certification: FREE\u0026PAID CERT Difficulty Level: Basic to Intermediate Brief Description: This course offers excellent teaching with a focus on projects and problem sets rather than exams. It covers Python, C, Scratch, introductory computer science concepts, and front-end development. Course LINK: [CS50x Course](https://cs50.harvard.edu/x/2024/) ---",
+            "title": "PCL Data as text",
+            "uri": "https://storage.cloud.google.com/course_recommender_dataset/PCL Data as text.pdf#page=1"
+          }, {
+            "text": "It covers Python, C, Scratch, introductory computer science concepts, and front-end development. Course LINK: [CS50x Course](https://cs50.harvard.edu/x/2024/) --- **2.",
+            "title": "PCL Data as text",
+            "uri": "https://storage.cloud.google.com/course_recommender_dataset/PCL Data as text.pdf#page=1"
+          }, {
+            "text": "- **Course LINK:** [Financial Markets](https://www.coursera.org/learn/financial-markets-global) --- ### **33.",
+            "title": "PCL Data as text",
+            "uri": "https://storage.cloud.google.com/course_recommender_dataset/PCL Data as text.pdf#page=13"
+          } ]
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Sure, here is a course on Digital Forensics:\n\n**4. Digital Forensics Masterclass: Forensic Science 2024 DFMC+**\n\n* **Expiry Date:** NA\n* **Free:** NO\n* **Quality:** Worthy\n* **Prerequisites:** No requirements or experience needed\n* **Duration:** 13.5 hours\n* **Platform:** Udemy\n* **Community/Forum:** [Udemy Course](https://www.udemy.com/course/digital-forensics-course/)\n* **Certification:** PAID CERT\n* **Difficulty Level:** Intermediate\n* **Brief Description:** Covers essential topics in digital forensics, including data acquisition and the need for digital forensics.\n* **Course LINK:** [Digital Forensics Course](https://www.udemy.com/course/digital-forensics-course/)"
+    }
+  } ],
+  "displayName": "Example 1",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "en"
+}

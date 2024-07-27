@@ -14,8 +14,7 @@ body {
 header {
     background: #333;
     color: #fff;
-    padding-top: 30px;
-    min-height: 70px;
+    padding: 20px 0;
     border-bottom: #0779e4 3px solid;
 }
 
@@ -30,14 +29,24 @@ header p {
     margin: 10px 0;
 }
 
-#chat-container {
+main {
+    display: flex;
+    justify-content: space-between;
     margin: 20px 0;
-    background: #fff;
+}
+
+#content {
+    flex: 1;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    height: calc(100vh - 200px);
-    overflow-y: auto;
+}
+
+.center-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {

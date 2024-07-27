@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Recommender</title>
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+    <title>Course Recommender Bot</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <header>
+                <h1>Course Recommender Bot</h1>
+                <p>We recommend courses from a special dataset created by my team to decrease confusion of course optors and to select courses specially recommended from various platforms.</p>
+            </header>
+            <main>
+                <div id="content">
+                    <img src="https://foundr.com/wp-content/uploads/2023/04/How-to-create-an-online-course.jpg.webp" alt="Course Recommender" class="center-img">
+                </div>
+            </main>
+            <footer>
+                <p>&copy; 2024 Nihal's Course Recommender</p>
+            </footer>
+        </div>
+        <df-messenger
+            project-id="project-saadhna-429922"
+            agent-id="dc302415-b2b2-4f9b-9076-c35b2486f1d1"
+            language-code="en"
+            max-query-length="-1">
+            <df-messenger-chat
+                chat-title="Course Recommender">
+            </df-messenger-chat>
+        </df-messenger>
+    </div>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+</body>
 </html>

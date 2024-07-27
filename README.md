@@ -1,0 +1,3 @@
+- Gen AI Course Recommender Bot.
+- PCL Team 4 Project
+- Recommends course from a speically created dataset to decrease confusion and recommend courses that are worth it.

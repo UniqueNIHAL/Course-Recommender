@@ -12,16 +12,21 @@
         <div class="container">
             <header>
                 <div class="chat-header">
-                <h1>Course Recommender Bot</h1>
-                </div>
-                <div class="chat-message">
-                    <p>We recommend courses from a special dataset created by my team to decrease confusion of course optors and to select courses specially recommended from various platforms.</p>
+                    <h1>Course Recommender Bot</h1>
                 </div>
                 
+                <a href="about.html">
+                    <button class="about-button">About the Project</button>
+                </a><div class="chat-message">
+                    <p>Discover top courses handpicked by our team for the best choices</p>
+                </div>
             </header>
             <main>
                 <div id="content">
                     <img src="https://foundr.com/wp-content/uploads/2023/04/How-to-create-an-online-course.jpg.webp" alt="Course Recommender" class="center-img">
+                </div>
+                <div class="chat-message">
+                    <p><strong>AI Bot:</strong> Introducing Course Recommender! Avoid confusion and choosing the wrong course, choose the industry standard, quality tested and highest rated courses using our AI bot.</p>
                 </div>
                 <div class="chat-message">
                     <p><strong>AI Bot:</strong> This AI Chatbot has been prepared with a dataset of recommended courses carefully selected by my team on factors like:</p>
@@ -33,6 +38,7 @@
                         <li>Industry Standard</li>
                     </ul>
                 </div>
+                
                 <div class="chat-message">
                     <p><strong>AI Bot:</strong> The project has been built on Google Cloud Platform, using Agent Builder and Dialogflow CX.</p>
                 </div>
@@ -47,15 +53,15 @@
             </main>
         </div>
         <df-messenger
-  oauth-client-id="602721919952-ckjlv2p64f5dif4tsoh9df05da79m672.apps.googleusercontent.com"
-  project-id="project-saadhna-429922"
-  agent-id="dc302415-b2b2-4f9b-9076-c35b2486f1d1"
-  language-code="en"
-  max-query-length="-1">
-  <df-messenger-chat
-   chat-title="Course Recommender">
-  </df-messenger-chat>
-</df-messenger>
+            project-id="project-saadhna-429922"
+            agent-id="dc302415-b2b2-4f9b-9076-c35b2486f1d1"
+            language-code="en"
+            max-query-length="-1">
+            <df-messenger-chat
+                chat-title="Course Recommender">
+            </df-messenger-chat>
+        </df-messenger>
     </div>
     <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+</body>
 </html>

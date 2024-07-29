@@ -1,77 +1,87 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    max-width: 100%;
 }
 
 .main-container {
-    display: flex;
-    justify-content: flex-start;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    width: 70%;
-    margin: 0;
+    max-width: 90%;
+    margin: auto;
     padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding: 20px;
-    border-bottom: #0779e4 3px solid;
+    text-align: center;
     margin-bottom: 20px;
 }
 
 header h1 {
-    text-align: left;
-    text-transform: uppercase;
-    margin: 0;
+    font-size: 2.5em;
+    color: #007bff;
 }
 
 header p {
-    text-align: left;
-    margin: 10px 0;
+    font-size: 1.2em;
+    color: #555;
+}
+
+header nav a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.1em;
+}
+
+header nav a:hover {
+    text-decoration: underline;
 }
 
 main {
-    margin: 20px 0;
+    text-align: center;
 }
 
-#content {
-    padding: 20px;
-}
-
-.center-img {
-    display: block;
+main .center-img {
     max-width: 100%;
     height: auto;
-    margin: 0 auto;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
-footer {
+.chat-message {
+    background-color: #e6f7ff;
+    border: 1px solid #b3e5ff;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 0;
     text-align: left;
-    padding: 20px 0;
-    background: #333;
-    color: #fff;
-    margin-top: 20px;
 }
 
-df-messenger {
-    --df-messenger-font-color: #000;
-    --df-messenger-font-family: Google Sans;
-    --df-messenger-chat-background: #f3f6fc;
-    --df-messenger-message-user-background: #d3e3fd;
-    --df-messenger-message-bot-background: #fff;
-    z-index: 999;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    top: 0;
-    width: 350px;
+.chat-message strong {
+    color: #007bff;
+}
+
+.chat-message p {
+    margin: 0;
+}
+
+.chat-message ul {
+    margin: 10px 0 0 20px;
+    padding: 0;
+}
+
+.chat-message ul li {
+    margin: 5px 0;
+}
+.chat-header {
+    background-color: #282929;
+    border: 1px solid #b3e5ff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0;
+    text-align: center;
 }
